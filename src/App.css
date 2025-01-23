@@ -11,3 +11,80 @@
 
 }
 
+.input-container{
+  padding: 10px;
+  display: flex;
+  gap: 12px;
+  align-content: center;
+  justify-content: center;
+}
+
+.input-container input{
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid #c3c3c3;
+  align-content: center;
+  justify-content: center;
+  height: 40px;
+  
+}
+
+.button-container{
+  padding: 10px;
+  display: flex;
+  gap: 12px;
+}
+
+.button-container button{
+  background-color: orange;
+  margin-top: 20px;
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 0px 0px 10px -3px;
+  cursor: pointer;
+}
+
+/* 메달 테이블 */
+.medal-table{
+  width: 90%;
+  border-collapse: collapse;
+  margin: 30px auto;
+  border-radius: 10px;
+  background-color: rgb(148, 190, 243);
+}
+
+.medal-table th,
+.medal-table td {
+  border: none;
+  padding: 16px;
+  text-align: center;
+}
+
+.medal-table th {
+  background-color: rgb(62, 131, 215);
+  color: white;
+  font-weight: bold;
+}
+
+/* 짝수 행 배경색 */
+.medal-table tr:nth-child(even) {
+  background-color: #e5e5e5;
+}
+
+
+.medal-table button{
+  background-color: rgb(238, 95, 95);
+  color: whitesmoke;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 13px;
+  cursor: pointer;
+  
+}
+
+.medal-table button:hover {
+  background-color: rgb(177, 70, 70);
+}
