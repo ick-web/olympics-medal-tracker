@@ -14,6 +14,7 @@ export const MedalList = ({ countries, setCountries }) => {
         <thead>
           <tr>
             <th>국가명</th>
+            <th>총합</th>
             <th>금메달</th>
             <th>은메달</th>
             <th>동메달</th>
@@ -24,6 +25,7 @@ export const MedalList = ({ countries, setCountries }) => {
           {sortedCountries.map((item) => (
             <tr key={item.id}>
               <td>{item.country}</td>
+              <td>{item.gold + item.silver + item.bronze}</td>
               <td>{item.gold}</td>
               <td>{item.silver}</td>
               <td>{item.bronze}</td>

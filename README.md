@@ -1,8 +1,20 @@
-# React + Vite
+# React 올림픽 메달 추적기 🏅🥈🥉
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[React 9기] React 입문주차 개인과제 올림픽 메달 집계를 관리하는 프로젝트 입니다.
 
-Currently, two official plugins are available:
+## 기능
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 새로운 국가 추가
+- 각 입력 창에 값을 입력한 후 국가추가 버튼을 클릭하면 새로운 국가와 매달 집계가 저장됩니다.
+- 중복된 국가일 경우, 알림이 뜹니다
+- 숫자를 입력하거나, 입력창에 하나라도 입력하지 않을 경우 알림창이 뜹니다.
+
+
+### 중복 국가 데이터 갱신
+- 이미 중복된 국가일 경우 업데이트 버튼을 눌러 값을 누적시킬 수 있습니다
+
+### 국가 삭제 
+- 삭제를 원하는 국가는 삭제버튼을 눌러 삭제 할 수 있습니다.
+
+### 트러블 슈팅 블로그
+[블로그] (https://devyu0001.tistory.com/55)

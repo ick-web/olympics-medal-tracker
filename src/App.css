@@ -47,6 +47,10 @@
   cursor: pointer;
 }
 
+.button-container button:hover{
+  background-color: rgb(251, 196, 95);
+}
+
 /* 메달 테이블 */
 .medal-table{
   width: 90%;
@@ -86,5 +90,5 @@
 }
 
 .medal-table button:hover {
-  background-color: rgb(177, 70, 70);
+  background-color: rgb(250, 115, 115);
 }
