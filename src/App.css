@@ -36,7 +36,7 @@
 }
 
 .button-container button{
-  background-color: orange;
+  background-color: #f7ab4d;
   margin-top: 20px;
   height: 40px;
   width: 100px;
@@ -57,7 +57,7 @@
   border-collapse: collapse;
   margin: 30px auto;
   border-radius: 10px;
-  background-color: rgb(148, 190, 243);
+  background-color: #deedfa;
 }
 
 .medal-table th,
@@ -68,14 +68,14 @@
 }
 
 .medal-table th {
-  background-color: rgb(62, 131, 215);
+  background-color: #2052f5;
   color: white;
   font-weight: bold;
 }
 
 /* 짝수 행 배경색 */
 .medal-table tr:nth-child(even) {
-  background-color: #e5e5e5;
+  background-color: #fcfcfc;
 }
 
 
