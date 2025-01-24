@@ -18,3 +18,6 @@
 
 ### 트러블 슈팅 블로그
 [블로그] (https://devyu0001.tistory.com/55)
+
+### 배포
+[사이트] (https://ick-web.github.io/olympics-medal-tracker/)
